@@ -263,7 +263,28 @@ body {
   border-radius: 4px;
   margin-bottom: 30px;
 }
+.feature-icon {
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-antena {
+background-image: url("../images/antenna\ 1.svg");
 
+}
+.icon-clock {
+background-image: url("../images/clock\ 1.svg");
+}
+.icon-diagram {
+  background-image: url("../images/diagram\ 1.svg");
+}
+.icon-astronavt {
+  background-image: url("../images/astronaut\ 1.svg");
+}
 .feature-subtitle {
 font-family: Roboto;
 font-size: 14px;
@@ -273,6 +294,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-align: left;
 color: var(--primary-title-color);
+
   
 }
 .feature-list{
@@ -342,6 +364,9 @@ color: var(--primary-title-color);
   flex-basis: calc(100% / 4 - 30px);
   margin-right: 30px;
   margin-bottom: 3px;
+  background-color: var(--secondary-white-color);
+  box-shadow:  0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 .command-subtitle {
   font-weight: 500;
@@ -426,6 +451,8 @@ border: 1px solid var(--accent-color);
 }
 .clients-icon {
   fill: currentColor;
+  width: 106px;
+  height: 60px;
 }
 
 /* footer*/
@@ -513,8 +540,8 @@ margin-left: 10px;
   justify-content: center;
   border-radius: 50%;
   color: #ffffff;
-  background-color: 
-  rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  
   
 }
