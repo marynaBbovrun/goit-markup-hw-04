@@ -79,6 +79,8 @@ body {
 }
 .header-item {
   margin-right: 50px;
+  padding-top: 33px;
+  padding-bottom: 31px;
 }
 .header-item:last-child {
   margin-right: 0;
@@ -127,8 +129,7 @@ body {
   color: var(--primary-text-color);
 }
 .site-nav {
-  padding-top: 33px;
-  padding-bottom: 31px;
+  
 }
 
 .header-connect {
